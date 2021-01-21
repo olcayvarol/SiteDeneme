@@ -1,0 +1,1 @@
+<div id="hakkimda" style="height: 100vh;"></div>

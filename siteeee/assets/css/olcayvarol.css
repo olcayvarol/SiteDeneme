@@ -1,0 +1,37 @@
+body{font-family: roboto,sans-serif;}
+.text-left{text-align:left !important;}
+.card{border:0;}
+a{text-decoration: none;color:#343a40;}
+
+.bg-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -99999;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bg-overlay:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #212529;
+    opacity: .55;
+}
